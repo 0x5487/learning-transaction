@@ -1,0 +1,14 @@
+env: local
+mode: debug
+databases:
+  - name: starter
+    type: mysql
+    address: localhost:3306
+    username: root
+    password: root
+    dbname: starter_db
+    is_migrated: true
+logs:
+  - name: clog
+    type: console
+    min_level: debug
